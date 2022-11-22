@@ -6,7 +6,7 @@
   "data": {
     "dereferrers": [
       {
-        "path": "/deref-(web|gmx)\\.de\/mail\/client\/[a-zA-Z0-9]+\/dereferrer/",
+        "path": "/deref-(web|gmx)\\.(de|net)\/mail\/client\/[a-zA-Z0-9]+\/dereferrer/",
         "param": ["redirectUrl"]
       },
       {
