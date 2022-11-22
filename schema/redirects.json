@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "JSON Schema Redirect and Dereferrer",
+  "description": "JSON schema for defining lists of redirect and dereferrer hosts",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique list id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Short title for the list",
+      "type": "string"
+    },
+    "version": {
+      "description": "Time of last update",
+      "type": "string"
+    },
+    "data": {
+      "description": "Data used by extensions",
+      "type": "object",
+      "properties": {
+        "dereferrers": {
+          "description": "List of dereferrer paths",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "description": "Path of referrer service (without protocol). Regex starts and ends with /",
+                "type": "string",
+                "examples": ["/deref-web\\.de\/mail\/client\/[a-zA-Z0-9]+\/dereferrer/", "osob.de/go"]
+              },
+              "param": {
+                "description": "If the query parameter includes the url use this. Set this to true if the url is suffixed in the way ?url",
+                "type": ["boolean", "array"],
+                "items": {
+                  "description": "Key of query parameter that includes url",
+                  "type": "string"
+                },
+                "examples": [true, ["url"]]
+              },
+              "format": {
+                "description": "Format in which the url is available",
+                "type": "array",
+                "items": {
+                  "enum": ["normal", "base64"]
+                }
+              }
+            },
+            "required": [
+              "path"
+            ]
+          }
+        },
+        "redirects": {
+          "description": "List of redirect service domains",
+          "type": "array",
+          "items": [
+            {
+              "description": "Redirect service domain (2nd level)",
+              "type": "string",
+              "examples": ["bit.ly"]
+            }
+          ]
+        }
+      },
+      "required": [
+        "dereferrers",
+        "redirects"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "version",
+    "data"
+  ]
+}

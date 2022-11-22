@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "JSON Schema Trusted",
+  "description": "JSON schema for defining trusted organizations and corresponding domains",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique list id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Short title for the list",
+      "type": "string"
+    },
+    "version": {
+      "description": "Time of last update",
+      "type": "string"
+    },
+    "data": {
+      "description": "Data used by extensions",
+      "type": "object",
+      "properties": {
+        "orgs": {
+          "description": "Definition of organizations",
+          "type": "object",
+          "patternProperties": {
+            "^[a-z0-9]+$": {
+              "type": "object",
+              "properties": {
+                "nm": {
+                  "description": "Name of the organization",
+                  "type": "string"
+                },
+                "se": {
+                  "description": "Sector of the organization as listed at https://github.com/jballmann/safelink-lists/tree/master/schema/Sectors.md",
+                  "enum": [
+                    "fin",
+                    "edu",
+                    "epay",
+                    "ecom",
+                    "telc",
+                    "gov",
+                    "pds",
+                    "web",
+                    "snet",
+                    "rtl",
+                    "mob",
+                    "tec",
+                    "ent"
+                  ]
+                },
+                "co": {
+                  "description": "Alpha-2 country code of the headquarter",
+                  "type": "string"
+                }
+              },
+              "required": ["nm", "se", "co"]
+            }
+          }
+        },
+        "external": {
+          "description": "Definition of external dependencies",
+          "type": "object",
+          "patternProperties": {
+            "^[a-z0-9-]": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "description": "URL where the data should be fetched from",
+                  "type": "string"
+                },
+                "ids": {
+                  "description": "List of external ids that are referenced in data.domains",
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": ["url", "ids"]
+            }
+          }
+        },
+        "domains": {
+          "description": "Mapping of domains to organization codes",
+          "type": "object",
+          "patternProperties": {
+            "^((?!-)[A-Za-z0-9-]{1,63}(?=!-)\\.)+[A-Za-z]{2,6}$": {
+              "type": "string"
+            }
+          } 
+        }
+      },
+      "required": ["orgs", "domains"]
+    }
+  },
+  "required": [
+    "id",
+    "version",
+    "data"
+  ]
+}

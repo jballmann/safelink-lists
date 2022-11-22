@@ -1,0 +1,365 @@
+{
+  "id": "safelink-default",
+  "title": "Safelink's default list",
+  "version": "2022-20-31T10:17Z",
+  "description": "Default trusted organizations and corresponding domains",
+  "data": {
+    "orgs": {
+      "amzn": {
+        "nm": "Amazon.com, Inc.",
+        "se": "ecom",
+        "co": "US"
+      },
+      "baba": {
+        "nm": "Alibaba Group",
+        "se": "ecom",
+        "co": "CN"
+      },
+      "msft": {
+        "nm": "Microsoft Corp.",
+        "se": "tec",
+        "co": "US"
+      },
+      "googl": {
+        "nm": "Alphabet Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "bkng": {
+        "nm": "Booking Holdings Inc.",
+        "se": "web",
+        "co": "NL"
+      },
+      "postde": {
+        "nm": "Deutsche Post AG",
+        "se": "pds",
+        "co": "DE"
+      },
+      "ebay": {
+        "nm": "Ebay Inc.",
+        "se": "ecom",
+        "co": "US"
+      },
+      "meta": {
+        "nm": "Meta Platforms, Inc.",
+        "se": "snet",
+        "co": "US"
+      },
+      "nflx": {
+        "nm": "Netflix, Inc.",
+        "se": "ent",
+        "co": "US"
+      },
+      "pypl": {
+        "nm": "PayPal Holdings, Inc.",
+        "se": "epay",
+        "co": "US"
+      },
+      "pypl": {
+        "nm": "Reddit Inc.",
+        "se": "snet",
+        "co": "US"
+      },
+      "dte": {
+        "nm": "Deutsche Telekom AG",
+        "se": "telc",
+        "co": "DE"
+      },
+      "wikimedia": {
+        "nm": "Wikimedia Foundation",
+        "se": "web",
+        "co": "US"
+      },
+      "yhoo": {
+        "nm": "Yahoo Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "adbe": {
+        "nm": "Adobe Inc.",
+        "se": "tec",
+        "co": "US"
+      },
+      "aapl": {
+        "nm": "Apple Inc.",
+        "se": "tec",
+        "co": "US"
+      },
+      "jpmchase": {
+        "nm": "JPMorgan Chase & Co.",
+        "se": "fin",
+        "co": "US"
+      },
+      "wbd": {
+        "nm": "Warner Bros. Discovery, Inc.",
+        "se": "ent",
+        "co": "US"
+      },
+      "craigslist": {
+        "nm": "Craigslist Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "dropbox": {
+        "nm": "Dropbox, Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "crm": {
+        "nm": "Salesforce, Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "recruitco": {
+        "nm": "Recruit Co., Ltd.",
+        "se": "web",
+        "co": "JP"
+      },
+      "jd": {
+        "nm": "JD.com, Inc.",
+        "se": "ecom",
+        "co": "CN"
+      },
+      "shop": {
+        "nm": "Shopify Inc.",
+        "se": "ecom",
+        "co": "CA"
+      },
+      "nytimes": {
+        "nm": "The New York Times Company",
+        "se": "ent",
+        "co": "US"
+      },
+      "tencent": {
+        "nm": "Tencent Holdings Ltd.",
+        "se": "tec",
+        "co": "CN"
+      },
+      "spot": {
+        "nm": "Spotify",
+        "se": "ent",
+        "co": "SE"
+      },
+      "stackx": {
+        "nm": "Stack Exchange Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "automattic": {
+        "nm": "Automattic Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "twitter": {
+        "nm": "Twitter, Inc.",
+        "se": "snet",
+        "co": "US"
+      },
+      "wmt": {
+        "nm": "Walmart Inc.",
+        "se": "rtl",
+        "co": "US"
+      },
+      "wfc": {
+        "nm": "Wells Fargo & Company",
+        "se": "fin",
+        "co": "US"
+      },
+      "yelp": {
+        "nm": "Yelp Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "ma": {
+        "nm": "Mastercard Inc.",
+        "se": "fin",
+        "co": "US"
+      },
+      "wu": {
+        "nm": "The Western Union Company",
+        "se": "fin",
+        "co": "US"
+      },
+      "cbk": {
+        "nm": "Commerzbank AG",
+        "se": "fin",
+        "co": "DE"
+      },
+      "inga": {
+        "nm": "ING Groep N.V.",
+        "se": "fin",
+        "co": "NL"
+      },
+      "visa": {
+        "nm": "Visa Inc.",
+        "se": "fin",
+        "co": "US"
+      },
+      "san": {
+        "nm": "Banco Santander, S.A.",
+        "se": "fin",
+        "co": "ES"
+      },
+      "barc": {
+        "nm": "Barclays plc",
+        "se": "fin",
+        "co": "UK"
+      },
+      "advanzia": {
+        "nm": "Advanzia Bank S.A.",
+        "se": "fin",
+        "co": "LU"
+      },
+      "bnp": {
+        "nm": "BNP Paribas S.A.",
+        "se": "fin",
+        "co": "FR"
+      },
+      "cmutuel": {
+        "nm": "Caisse Fédérale de Crédit Mutuel",
+        "se": "fin",
+        "co": "FR"
+      },
+      "axp": {
+        "nm": "American Express Company",
+        "se": "fin",
+        "co": "US"
+      },
+      "ucg": {
+        "nm": "UniCredit S.p.A.",
+        "se": "fin",
+        "co": "IT"
+      },
+      "valve": {
+        "nm": "Valve Corporation",
+        "se": "tec",
+        "co": "US"
+      },
+      "vod": {
+        "nm": "Vodafone Group plc",
+        "se": "telc",
+        "co": "UK"
+      },
+      "tef": {
+        "nm": "Telefónica, S.A.",
+        "se": "telc",
+        "co": "ES"
+      },
+      "fdx": {
+        "nm": "FedEx Corporation",
+        "se": "pds",
+        "co": "US"
+      },
+      "laposte": {
+        "nm": "La Poste S.A.",
+        "se": "pds",
+        "co": "FR"
+      },
+      "ups": {
+        "nm": "United Parcel Service, Inc.",
+        "se": "pds",
+        "co": "US"
+      },
+      "mailuk": {
+        "nm": "International Distributions Services plc",
+        "se": "pds",
+        "co": "UK"
+      },
+      "zoomus": {
+        "nm": "Zoom Video Communications, Inc.",
+        "se": "tec",
+        "co": "US"
+      },
+      "moza": {
+        "nm": "Mozilla",
+        "se": "tec",
+        "co": "US"
+      },
+      "discord": {
+        "nm": "Discord Inc.",
+        "se": "web",
+        "co": "US"
+      },
+      "ddgo": {
+        "nm": "Duck Duck Go, Inc.",
+        "se": "web",
+        "co": "US"
+      }
+    },
+    "domains": {
+      "amazon.com": "amzn",
+      "imdb.com": "amzn",
+      "twitch.tv": "amzn",
+      "aliexpress.com": "baba",
+      "tmall.com": "baba",
+      "taobao.com": "baba",
+      "live.com": "msft",
+      "microsoft.com": "msft",
+      "linkedin.com": "msft",
+      "msn.com": "msft",
+      "office.com": "msft",
+      "google.com": "googl",
+      "youtube.com": "googl",
+      "booking.com": "bkng",
+      "dhl.com": "postde",
+      "ebay.com": "ebay",
+      "facebook.com": "meta",
+      "instagram.com": "meta",
+      "netflix.com": "nflx",
+      "paypal.com": "pypl",
+      "reddit.com": "reddit",
+      "telekom.com": "dte",
+      "wikipedia.com": "wikimedia",
+      "yahoo.com": "yhoo",
+      "adobe.com": "adbe",
+      "apple.com": "aapl",
+      "chase.com": "jpmchase",
+      "cnn.com": "wbd",
+      "craigslist.org": "craigslist",
+      "dropbox.com": "dropbox",
+      "force.com": "crm",
+      "salesforce.com": "crm",
+      "indeed.com": "recruitco",
+      "jd.com": "jd",
+      "shopify": "shop",
+      "myshopify.com": "shop",
+      "nytimes.com": "nytimes",
+      "qq.com": "tencent",
+      "spotify.com": "spot",
+      "stackoverflow.com": "stackx",
+      "tumblr.com": "automattic",
+      "twitter.com": "twitter",
+      "walmart.com": "wmt",
+      "wellsfargo.com": "wfc",
+      "yelp.com": "yelp",
+      "mastercard.com": "ma",
+      "westernunion.com": "wu",
+      "commerzbank.com": "cbk",
+      "ing.com": "inga",
+      "visa.com": "visa",
+      "santander.com": "san",
+      "santanderbank.com": "san",
+      "home.barclays": "barc",
+      "advanzia.com": "advanzia",
+      "group.bnpparibas": "bnp",
+      "creditmutuel.com": "cmutuel",
+      "americanexpress.com": "axp",
+      "unicreditgroup.eu": "ucg",
+      "steampowered.com": "valve",
+      "valvesoftware.com": "valve",
+      "vodafone.com": "vod",
+      "telefonica.com": "tef",
+      "fedex.com": "fdx",
+      "lapostegroup.com": "laposte",
+      "dpd.com": "laposte",
+      "ups.com": "ups",
+      "royalmail.com": "mailuk",
+      "gls-group.com": "mailuk",
+      "zoom.us": "zoomus",
+      "mozilla.org": "moza",
+      "discord.com": "discord",
+      "duckduckgo.com": "ddgo",
+      "ddg.gg": "ddgo"
+    }
+  }
+}
