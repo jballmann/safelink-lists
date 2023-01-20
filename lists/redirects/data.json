@@ -7,7 +7,7 @@
     "dereferrers": [
       {
         "path": "/deref-(web|gmx)\\.(de|net)\/mail\/client\/[a-zA-Z0-9]+\/dereferrer/",
-        "param": ["redirectUrl", "redirecturl"]
+        "param": ["redirectUrl"]
       },
       {
         "path": "/google\\.[a-z\\.]+\/url/",

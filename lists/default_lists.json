@@ -1,23 +1,26 @@
 {
-  "version": "2022-11-11T10:00Z",
+  "version": "2022-12-10T22:00Z",
   "description": "Default lists for the extension",
   "data": {
     "list": {
       "safelink-default": {
         "type": "trusted",
         "group": "default",
-        "url": "https://raw.githubusercontent.com/jballmann/safelink-lists/main/lists/trusted/data.json"
+        "url": "https://raw.githubusercontent.com/jballmann/safelink-lists/main/lists/trusted/data.json",
+        "title": "Safelink's default list"
       },
       "safelink-de": {
         "type": "trusted",
         "group": "regions",
         "url": "https://raw.githubusercontent.com/jballmann/safelink-lists/main/lists/trusted_de/data.json",
-        "off": true
+        "off": true,
+        "title": "Safelink's German list"
       },
       "safelink-redirect": {
         "type": "redirect",
         "group": "regions",
-        "url": "https://raw.githubusercontent.com/jballmann/safelink-lists/main/lists/redirects/data.json"
+        "url": "https://raw.githubusercontent.com/jballmann/safelink-lists/main/lists/redirects/data.json",
+        "title": "Safelink's redirect and dereferrer list"
       },
       "malware-filter-phishing": {
         "type": "suspicious",
@@ -28,7 +31,7 @@
       "malware-filter-phishing": {
         "type": "suspicious",
         "group": "default",
-        "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+        "url": "https://safelink-proxy.vercel.app/get/https%3A%2F%2Fphishing.army%2Fdownload%2Fphishing_army_blocklist_extended.txt",
         "title": "Phishing Army | The Blocklist to filter Phishing"
       },
       "malware-filter-urlhaus": {
