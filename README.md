@@ -27,8 +27,8 @@ To make suggestions for existing lists please file an issue. Before you suggest 
 
 ### Create a new list
 
-To create a new list you must only create a JSON file that is public available. The schema for the file you can find in the [schema directory](./schema). Please do not define an organization twice instead import external dependencies with the help of the external property. Every assigned organization id must be unique and may not be exist in any other list.
+To create a new list you must only create a JSON file that is public available and includes the right CORS headers. The schema for the file you can find in the [schema directory](./schema). Please do not define an organization twice instead import external dependencies with the help of the external property. Every assigned organization id must be unique and may not be exist in any other list.
 
-## Licence
+## License
 
 All lists are licensed under GPLv3 and CC-BY 3.0
